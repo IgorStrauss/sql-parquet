@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 79
+
+[tool.taskipy.tasks]
+lint = 'ruff check . && ruff check . --diff'
+format = 'isort . && ruff check . --fix && ruff format .'
+run = 'fastapi dev main.py'
+isort = 'isort .'
+table = 'python criar_tabelas.py'
+insert-table = 'python config/database/insert.py'
+requirements = 'pip install -r requirements.txt'

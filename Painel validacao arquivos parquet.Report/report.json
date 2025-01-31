@@ -1,0 +1,90 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.61\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "publicCustomVisuals": [
+    "textFilter25A4896A83E0487089E2B90C9AE57C8A"
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"relationships\":[{\"source\":\"a95930d353040ec680a4\",\"target\":\"b469bfb037a387b47bce\",\"type\":3}]}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "0168629c8e3acb500395",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"944b42376e001ce8e87a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":572.2214723429528,\"y\":575.9533515104068,\"z\":0,\"width\":638.1513376346408,\"height\":133.10369030586074,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"veiculos.Chassi\"},{\"queryRef\":\"veiculos.Cor\"},{\"queryRef\":\"veiculos.Marca\"},{\"queryRef\":\"veiculos.Modelo\"},{\"queryRef\":\"pessoa.Nome\"},{\"queryRef\":\"pessoa.CPF\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"v\",\"Entity\":\"veiculos\",\"Type\":0},{\"Name\":\"p1\",\"Entity\":\"pessoa\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Chassi\"},\"Name\":\"veiculos.Chassi\",\"NativeReferenceName\":\"Chassi\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Cor\"},\"Name\":\"veiculos.Cor\",\"NativeReferenceName\":\"Cor\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Marca\"},\"Name\":\"veiculos.Marca\",\"NativeReferenceName\":\"Marca\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Modelo\"},\"Name\":\"veiculos.Modelo\",\"NativeReferenceName\":\"Modelo\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p1\"}},\"Property\":\"Nome\"},\"Name\":\"pessoa.Nome\",\"NativeReferenceName\":\"Proprietario\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p1\"}},\"Property\":\"CPF\"},\"Name\":\"pessoa.CPF\",\"NativeReferenceName\":\"CPF\"}]},\"columnProperties\":{\"pessoa.Nome\":{\"displayName\":\"Proprietario\"}},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 133.10,
+          "width": 638.15,
+          "x": 572.22,
+          "y": 575.95,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"96e6968a60673e666924\",\"layouts\":[{\"id\":0,\"position\":{\"x\":124.395972248468,\"y\":194.05771670761007,\"z\":4001,\"width\":231.37650838215046,\"height\":126.88389169343735,\"tabOrder\":4001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"pessoa.Nome\"},{\"queryRef\":\"pessoa.Sobrenome\"},{\"queryRef\":\"pessoa.CPF\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pessoa\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Nome\"},\"Name\":\"pessoa.Nome\",\"NativeReferenceName\":\"Nome\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Sobrenome\"},\"Name\":\"pessoa.Sobrenome\",\"NativeReferenceName\":\"Sobrenome\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"CPF\"},\"Name\":\"pessoa.CPF\",\"NativeReferenceName\":\"CPF\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 126.88,
+          "width": 231.38,
+          "x": 124.40,
+          "y": 194.06,
+          "z": 4001.00
+        },
+        {
+          "config": "{\"name\":\"a5a932f2c88948e0eab1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":124.23173803526447,\"y\":335.51637279596974,\"z\":3000,\"width\":399.89924433249365,\"height\":126.9521410579345,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"telefone_pessoa.Is_Active\"},{\"queryRef\":\"telefone_pessoa.DDD\"},{\"queryRef\":\"telefone_pessoa.Numero\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"telefone_pessoa\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Is_Active\"},\"Name\":\"telefone_pessoa.Is_Active\",\"NativeReferenceName\":\"Telefone Ativo ?\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"DDD\"},\"Name\":\"telefone_pessoa.DDD\",\"NativeReferenceName\":\"DDD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Numero\"},\"Name\":\"telefone_pessoa.Numero\",\"NativeReferenceName\":\"Numero Telefone\"}]},\"columnProperties\":{\"telefone_pessoa.Is_Active\":{\"displayName\":\"Telefone Ativo ?\"},\"telefone_pessoa.Numero\":{\"displayName\":\"Numero Telefone\"}},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 126.95,
+          "width": 399.90,
+          "x": 124.23,
+          "y": 335.52,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"a95930d353040ec680a4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":572.191435768262,\"y\":15.415617128463476,\"z\":1000,\"width\":227.60705289672543,\"height\":77.98488664987406,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textFilter25A4896A83E0487089E2B90C9AE57C8A\",\"projections\":{\"field\":[{\"queryRef\":\"pessoa.CPF\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pessoa\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"CPF\"},\"Name\":\"pessoa.CPF\",\"NativeReferenceName\":\"CPF\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 77.98,
+          "width": 227.61,
+          "x": 572.19,
+          "y": 15.42,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"b469bfb037a387b47bce\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.8816120906801,\"y\":222.16624685138538,\"z\":4000,\"width\":74.35768261964735,\"height\":352.74559193954656,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"pessoa.CPF\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"pessoa\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"CPF\"},\"Name\":\"pessoa.CPF\",\"NativeReferenceName\":\"CPF\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 352.75,
+          "width": 74.36,
+          "x": 10.88,
+          "y": 222.17,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"d0af13a5158871c11d19\",\"layouts\":[{\"id\":0,\"position\":{\"x\":124.23173803526447,\"y\":476.07052896725435,\"z\":2000,\"width\":405.34005037783373,\"height\":232.1410579345088,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"endereco_pessoa.Is_Active\"},{\"queryRef\":\"endereco_pessoa.Logradouro\"},{\"queryRef\":\"endereco_pessoa.Complemento\"},{\"queryRef\":\"endereco_pessoa.Numero\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"endereco_pessoa\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Logradouro\"},\"Name\":\"endereco_pessoa.Logradouro\",\"NativeReferenceName\":\"Logradouro\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Complemento\"},\"Name\":\"endereco_pessoa.Complemento\",\"NativeReferenceName\":\"Complemento\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Numero\"},\"Name\":\"endereco_pessoa.Numero\",\"NativeReferenceName\":\"Numero\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Is_Active\"},\"Name\":\"endereco_pessoa.Is_Active\",\"NativeReferenceName\":\"Endereço Ativo ?\"}]},\"columnProperties\":{\"endereco_pessoa.Is_Active\":{\"displayName\":\"Endereço Ativo ?\"}},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 232.14,
+          "width": 405.34,
+          "x": 124.23,
+          "y": 476.07,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

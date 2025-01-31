@@ -1,0 +1,3161 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"pessoa\",\"endereco_pessoa\",\"telefone_pessoa\",\"veiculos\",\"proprietario_veiculo\",\"Medidas\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.139.2054.0 (24.12)+334ca1c95b576cc53924655643b0d36f21caac55"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "endereco_pessoa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "endereco_pessoa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "endereco pessoa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "endereco_pessoa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "endereco_pessoa.complemento": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "endereco_pessoa",
+                    "ConceptualProperty": "Complemento"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "complemento": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "endereco_pessoa.id_endereco_pessoa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "endereco_pessoa",
+                    "ConceptualProperty": "Id_EnderecoPessoa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id endereco pessoa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Id_EnderecoPessoa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification endereco pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "identity endereco pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "identifier endereco pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "credential endereco pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "endereco_pessoa.id_pessoa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "endereco_pessoa",
+                    "ConceptualProperty": "Id_Pessoa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id pessoa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Id_Pessoa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "endereco_pessoa.is_active": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "endereco_pessoa",
+                    "ConceptualProperty": "Is_Active"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "is active": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Is_Active": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "active": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "dynamic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "functioning": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "effective": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "operating": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "working": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "Endereço Ativo ?": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "endereco_pessoa.logradouro": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "endereco_pessoa",
+                    "ConceptualProperty": "Logradouro"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "logradouro": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "endereco_pessoa.numero": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "endereco_pessoa",
+                    "ConceptualProperty": "Numero"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "numero": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medida": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.a": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "a"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "a": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "medida.qtd_pessoa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Qtd_Pessoa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtd pessoa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Qtd_Pessoa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.qtd_veiculos": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Qtd_Veiculos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "qtd veiculos": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Qtd_Veiculos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "medida.veiculos_pessoa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Veiculos_Pessoa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "veiculos pessoa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Veiculos_Pessoa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "pessoa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "pessoa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pessoa": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "pessoa.cpf": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "pessoa",
+                    "ConceptualProperty": "CPF"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cpf": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "pessoa.id_pessoa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "pessoa",
+                    "ConceptualProperty": "Id_Pessoa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id pessoa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Id_Pessoa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "pessoa.nome": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "pessoa",
+                    "ConceptualProperty": "Nome"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nome": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Proprietario": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "pessoa.sobrenome": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "pessoa",
+                    "ConceptualProperty": "Sobrenome"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sobrenome": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "proprietario_veiculo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proprietario_veiculo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "proprietario veiculo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "proprietario_veiculo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "proprietario_veiculo.id_pessoa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proprietario_veiculo",
+                    "ConceptualProperty": "Id_Pessoa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id pessoa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Id_Pessoa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "proprietario_veiculo.id_proprietario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proprietario_veiculo",
+                    "ConceptualProperty": "Id_Proprietario"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id proprietario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Id_Proprietario": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification proprietario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity proprietario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier proprietario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential proprietario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "proprietario_veiculo.id_veiculo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proprietario_veiculo",
+                    "ConceptualProperty": "Id_Veiculo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id veiculo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Id_Veiculo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification veiculo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity veiculo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier veiculo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential veiculo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "proprietario_veiculo.is_active": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "proprietario_veiculo",
+                    "ConceptualProperty": "Is_Active"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "is active": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Is_Active": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "active": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "dynamic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "functioning": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "effective": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "operating": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "working": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "telefone_pessoa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "telefone_pessoa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "telefone pessoa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "telefone_pessoa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "telefone_pessoa.ddd": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "telefone_pessoa",
+                    "ConceptualProperty": "DDD"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ddd": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "telefone_pessoa.id_pessoa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "telefone_pessoa",
+                    "ConceptualProperty": "Id_Pessoa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id pessoa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Id_Pessoa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "telefone_pessoa.id_telefone_pessoa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "telefone_pessoa",
+                    "ConceptualProperty": "Id_TelefonePessoa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id telefone pessoa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Id_TelefonePessoa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification telefone pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "identity telefone pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "identifier telefone pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "credential telefone pessoa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "telefone_pessoa.is_active": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "telefone_pessoa",
+                    "ConceptualProperty": "Is_Active"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "is active": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Is_Active": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "active": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "dynamic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "functioning": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "effective": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "operating": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "working": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "Telefone Ativo ?": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "telefone_pessoa.numero": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "telefone_pessoa",
+                    "ConceptualProperty": "Numero"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "numero": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Numero Telefone": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "veiculo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "veiculos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "veiculo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "veiculo.ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "veiculos",
+                    "ConceptualProperty": "Ano"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "veiculo.ano_modelo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "veiculos",
+                    "ConceptualProperty": "Ano_Modelo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano modelo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Ano_Modelo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "veiculo.chassi": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "veiculos",
+                    "ConceptualProperty": "Chassi"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "chassi": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "veiculo.cor": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "veiculos",
+                    "ConceptualProperty": "Cor"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cor": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "veiculo.id_veiculo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "veiculos",
+                    "ConceptualProperty": "Id_Veiculo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id veiculo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Id_Veiculo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification veiculo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity veiculo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier veiculo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential veiculo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "veiculo.marca": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "veiculos",
+                    "ConceptualProperty": "Marca"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "marca": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "veiculo.modelo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "veiculos",
+                    "ConceptualProperty": "Modelo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "modelo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "endereco_pessoa_has_complemento": {
+                "Binding": {
+                  "ConceptualEntity": "endereco_pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "endereco_pessoa.complemento"
+                      },
+                      "Subject": {
+                        "Role": "endereco_pessoa"
+                      }
+                    },
+                    "ID": "endereco_pessoa_have_complementos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "endereco_pessoa": {
+                    "Target": {
+                      "Entity": "endereco_pessoa"
+                    }
+                  },
+                  "endereco_pessoa.complemento": {
+                    "Target": {
+                      "Entity": "endereco_pessoa.complemento"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "endereco_pessoa_has_id_endereco_pessoa": {
+                "Binding": {
+                  "ConceptualEntity": "endereco_pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "endereco_pessoa.id_endereco_pessoa"
+                      },
+                      "Subject": {
+                        "Role": "endereco_pessoa"
+                      }
+                    },
+                    "ID": "endereco_pessoa_have_id_endereco_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "endereco_pessoa": {
+                    "Target": {
+                      "Entity": "endereco_pessoa"
+                    }
+                  },
+                  "endereco_pessoa.id_endereco_pessoa": {
+                    "Target": {
+                      "Entity": "endereco_pessoa.id_endereco_pessoa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "endereco_pessoa_has_is_active": {
+                "Binding": {
+                  "ConceptualEntity": "endereco_pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "endereco_pessoa.is_active"
+                      },
+                      "Subject": {
+                        "Role": "endereco_pessoa"
+                      }
+                    },
+                    "ID": "endereco_pessoa_have_is_actives",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "endereco_pessoa": {
+                    "Target": {
+                      "Entity": "endereco_pessoa"
+                    }
+                  },
+                  "endereco_pessoa.is_active": {
+                    "Target": {
+                      "Entity": "endereco_pessoa.is_active"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "endereco_pessoa_has_logradouro": {
+                "Binding": {
+                  "ConceptualEntity": "endereco_pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "endereco_pessoa.logradouro"
+                      },
+                      "Subject": {
+                        "Role": "endereco_pessoa"
+                      }
+                    },
+                    "ID": "endereco_pessoa_have_logradouros",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "endereco_pessoa": {
+                    "Target": {
+                      "Entity": "endereco_pessoa"
+                    }
+                  },
+                  "endereco_pessoa.logradouro": {
+                    "Target": {
+                      "Entity": "endereco_pessoa.logradouro"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "endereco_pessoa_has_numero": {
+                "Binding": {
+                  "ConceptualEntity": "endereco_pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "endereco_pessoa.numero"
+                      },
+                      "Subject": {
+                        "Role": "endereco_pessoa"
+                      }
+                    },
+                    "ID": "endereco_pessoa_have_numeros",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "endereco_pessoa": {
+                    "Target": {
+                      "Entity": "endereco_pessoa"
+                    }
+                  },
+                  "endereco_pessoa.numero": {
+                    "Target": {
+                      "Entity": "endereco_pessoa.numero"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "endereco_pessoa_has_pessoa": {
+                "Binding": {
+                  "ConceptualEntity": "endereco_pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pessoa"
+                      },
+                      "Subject": {
+                        "Role": "endereco_pessoa"
+                      }
+                    },
+                    "ID": "endereco_pessoa_have_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "endereco_pessoa"
+                      },
+                      "Subject": {
+                        "Role": "pessoa"
+                      }
+                    },
+                    "ID": "pessoa_have_endereco_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "endereco_pessoa": {
+                    "Target": {
+                      "Entity": "endereco_pessoa"
+                    }
+                  },
+                  "pessoa": {
+                    "Target": {
+                      "Entity": "pessoa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "endereco_pessoa_is_active": {
+                "Binding": {
+                  "ConceptualEntity": "endereco_pessoa"
+                },
+                "Conditions": [
+                  {
+                    "Operator": "Equals",
+                    "Target": {
+                      "Role": "endereco_pessoa.is_active"
+                    },
+                    "Value": {
+                      "Boolean": [
+                        true
+                      ]
+                    }
+                  }
+                ],
+                "Phrasings": [
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "active": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "endereco_pessoa"
+                      }
+                    },
+                    "ID": "some_endereco_pessoa_are_active_endereco_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "endereco_pessoa": {
+                    "Target": {
+                      "Entity": "endereco_pessoa"
+                    }
+                  },
+                  "endereco_pessoa.is_active": {
+                    "Target": {
+                      "Entity": "endereco_pessoa.is_active"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pessoa_has_cpf": {
+                "Binding": {
+                  "ConceptualEntity": "pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pessoa.cpf"
+                      },
+                      "Subject": {
+                        "Role": "pessoa"
+                      }
+                    },
+                    "ID": "pessoa_have_cpfs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pessoa": {
+                    "Target": {
+                      "Entity": "pessoa"
+                    }
+                  },
+                  "pessoa.cpf": {
+                    "Target": {
+                      "Entity": "pessoa.cpf"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pessoa_has_id_pessoa": {
+                "Binding": {
+                  "ConceptualEntity": "pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pessoa.id_pessoa"
+                      },
+                      "Subject": {
+                        "Role": "pessoa"
+                      }
+                    },
+                    "ID": "pessoa_have_id_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pessoa": {
+                    "Target": {
+                      "Entity": "pessoa"
+                    }
+                  },
+                  "pessoa.id_pessoa": {
+                    "Target": {
+                      "Entity": "pessoa.id_pessoa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pessoa_has_medida_qtd_pessoa": {
+                "Binding": {
+                  "ConceptualEntity": "pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.qtd_pessoa"
+                      },
+                      "Subject": {
+                        "Role": "pessoa"
+                      }
+                    },
+                    "ID": "pessoa_have_qtd_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida.qtd_pessoa": {
+                    "Target": {
+                      "Entity": "medida.qtd_pessoa"
+                    }
+                  },
+                  "pessoa": {
+                    "Target": {
+                      "Entity": "pessoa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pessoa_has_nome": {
+                "Binding": {
+                  "ConceptualEntity": "pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pessoa.nome"
+                      },
+                      "Subject": {
+                        "Role": "pessoa"
+                      }
+                    },
+                    "ID": "pessoa_have_nome",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pessoa": {
+                    "Target": {
+                      "Entity": "pessoa"
+                    }
+                  },
+                  "pessoa.nome": {
+                    "Target": {
+                      "Entity": "pessoa.nome"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "pessoa_has_sobrenome": {
+                "Binding": {
+                  "ConceptualEntity": "pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pessoa.sobrenome"
+                      },
+                      "Subject": {
+                        "Role": "pessoa"
+                      }
+                    },
+                    "ID": "pessoa_have_sobrenomes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pessoa": {
+                    "Target": {
+                      "Entity": "pessoa"
+                    }
+                  },
+                  "pessoa.sobrenome": {
+                    "Target": {
+                      "Entity": "pessoa.sobrenome"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proprietario_veiculo_has_id_proprietario": {
+                "Binding": {
+                  "ConceptualEntity": "proprietario_veiculo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proprietario_veiculo.id_proprietario"
+                      },
+                      "Subject": {
+                        "Role": "proprietario_veiculo"
+                      }
+                    },
+                    "ID": "proprietario_veiculos_have_id_proprietarios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proprietario_veiculo": {
+                    "Target": {
+                      "Entity": "proprietario_veiculo"
+                    }
+                  },
+                  "proprietario_veiculo.id_proprietario": {
+                    "Target": {
+                      "Entity": "proprietario_veiculo.id_proprietario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proprietario_veiculo_has_is_active": {
+                "Binding": {
+                  "ConceptualEntity": "proprietario_veiculo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proprietario_veiculo.is_active"
+                      },
+                      "Subject": {
+                        "Role": "proprietario_veiculo"
+                      }
+                    },
+                    "ID": "proprietario_veiculos_have_is_actives",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proprietario_veiculo": {
+                    "Target": {
+                      "Entity": "proprietario_veiculo"
+                    }
+                  },
+                  "proprietario_veiculo.is_active": {
+                    "Target": {
+                      "Entity": "proprietario_veiculo.is_active"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proprietario_veiculo_has_medida_veiculos_pessoa": {
+                "Binding": {
+                  "ConceptualEntity": "proprietario_veiculo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.veiculos_pessoa"
+                      },
+                      "Subject": {
+                        "Role": "proprietario_veiculo"
+                      }
+                    },
+                    "ID": "proprietario_veiculos_have_veiculos_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida.veiculos_pessoa": {
+                    "Target": {
+                      "Entity": "medida.veiculos_pessoa"
+                    }
+                  },
+                  "proprietario_veiculo": {
+                    "Target": {
+                      "Entity": "proprietario_veiculo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proprietario_veiculo_has_pessoa": {
+                "Binding": {
+                  "ConceptualEntity": "proprietario_veiculo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pessoa"
+                      },
+                      "Subject": {
+                        "Role": "proprietario_veiculo"
+                      }
+                    },
+                    "ID": "proprietario_veiculos_have_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proprietario_veiculo"
+                      },
+                      "Subject": {
+                        "Role": "pessoa"
+                      }
+                    },
+                    "ID": "pessoa_have_proprietario_veiculos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pessoa": {
+                    "Target": {
+                      "Entity": "pessoa"
+                    }
+                  },
+                  "proprietario_veiculo": {
+                    "Target": {
+                      "Entity": "proprietario_veiculo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proprietario_veiculo_has_veiculo": {
+                "Binding": {
+                  "ConceptualEntity": "proprietario_veiculo"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "veiculo"
+                      },
+                      "Subject": {
+                        "Role": "proprietario_veiculo"
+                      }
+                    },
+                    "ID": "proprietario_veiculos_have_veiculos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "proprietario_veiculo"
+                      },
+                      "Subject": {
+                        "Role": "veiculo"
+                      }
+                    },
+                    "ID": "veiculos_have_proprietario_veiculos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proprietario_veiculo": {
+                    "Target": {
+                      "Entity": "proprietario_veiculo"
+                    }
+                  },
+                  "veiculo": {
+                    "Target": {
+                      "Entity": "veiculo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "proprietario_veiculo_is_active": {
+                "Binding": {
+                  "ConceptualEntity": "proprietario_veiculo"
+                },
+                "Conditions": [
+                  {
+                    "Operator": "Equals",
+                    "Target": {
+                      "Role": "proprietario_veiculo.is_active"
+                    },
+                    "Value": {
+                      "Boolean": [
+                        true
+                      ]
+                    }
+                  }
+                ],
+                "Phrasings": [
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "active": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "proprietario_veiculo"
+                      }
+                    },
+                    "ID": "some_proprietario_veiculos_are_active_proprietario_veiculos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "proprietario_veiculo": {
+                    "Target": {
+                      "Entity": "proprietario_veiculo"
+                    }
+                  },
+                  "proprietario_veiculo.is_active": {
+                    "Target": {
+                      "Entity": "proprietario_veiculo.is_active"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "telefone_pessoa_has_ddd": {
+                "Binding": {
+                  "ConceptualEntity": "telefone_pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "telefone_pessoa.ddd"
+                      },
+                      "Subject": {
+                        "Role": "telefone_pessoa"
+                      }
+                    },
+                    "ID": "telefone_pessoa_have_ddds",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "telefone_pessoa": {
+                    "Target": {
+                      "Entity": "telefone_pessoa"
+                    }
+                  },
+                  "telefone_pessoa.ddd": {
+                    "Target": {
+                      "Entity": "telefone_pessoa.ddd"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "telefone_pessoa_has_id_telefone_pessoa": {
+                "Binding": {
+                  "ConceptualEntity": "telefone_pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "telefone_pessoa.id_telefone_pessoa"
+                      },
+                      "Subject": {
+                        "Role": "telefone_pessoa"
+                      }
+                    },
+                    "ID": "telefone_pessoa_have_id_telefone_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "telefone_pessoa": {
+                    "Target": {
+                      "Entity": "telefone_pessoa"
+                    }
+                  },
+                  "telefone_pessoa.id_telefone_pessoa": {
+                    "Target": {
+                      "Entity": "telefone_pessoa.id_telefone_pessoa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "telefone_pessoa_has_is_active": {
+                "Binding": {
+                  "ConceptualEntity": "telefone_pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "telefone_pessoa.is_active"
+                      },
+                      "Subject": {
+                        "Role": "telefone_pessoa"
+                      }
+                    },
+                    "ID": "telefone_pessoa_have_is_actives",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "telefone_pessoa": {
+                    "Target": {
+                      "Entity": "telefone_pessoa"
+                    }
+                  },
+                  "telefone_pessoa.is_active": {
+                    "Target": {
+                      "Entity": "telefone_pessoa.is_active"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "telefone_pessoa_has_numero": {
+                "Binding": {
+                  "ConceptualEntity": "telefone_pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "telefone_pessoa.numero"
+                      },
+                      "Subject": {
+                        "Role": "telefone_pessoa"
+                      }
+                    },
+                    "ID": "telefone_pessoa_have_numeros",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "telefone_pessoa": {
+                    "Target": {
+                      "Entity": "telefone_pessoa"
+                    }
+                  },
+                  "telefone_pessoa.numero": {
+                    "Target": {
+                      "Entity": "telefone_pessoa.numero"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "telefone_pessoa_has_pessoa": {
+                "Binding": {
+                  "ConceptualEntity": "telefone_pessoa"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "pessoa"
+                      },
+                      "Subject": {
+                        "Role": "telefone_pessoa"
+                      }
+                    },
+                    "ID": "telefone_pessoa_have_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "telefone_pessoa"
+                      },
+                      "Subject": {
+                        "Role": "pessoa"
+                      }
+                    },
+                    "ID": "pessoa_have_telefone_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "pessoa": {
+                    "Target": {
+                      "Entity": "pessoa"
+                    }
+                  },
+                  "telefone_pessoa": {
+                    "Target": {
+                      "Entity": "telefone_pessoa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "telefone_pessoa_is_active": {
+                "Binding": {
+                  "ConceptualEntity": "telefone_pessoa"
+                },
+                "Conditions": [
+                  {
+                    "Operator": "Equals",
+                    "Target": {
+                      "Role": "telefone_pessoa.is_active"
+                    },
+                    "Value": {
+                      "Boolean": [
+                        true
+                      ]
+                    }
+                  }
+                ],
+                "Phrasings": [
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "active": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "telefone_pessoa"
+                      }
+                    },
+                    "ID": "some_telefone_pessoa_are_active_telefone_pessoa",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "telefone_pessoa": {
+                    "Target": {
+                      "Entity": "telefone_pessoa"
+                    }
+                  },
+                  "telefone_pessoa.is_active": {
+                    "Target": {
+                      "Entity": "telefone_pessoa.is_active"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "veiculo_has_ano": {
+                "Binding": {
+                  "ConceptualEntity": "veiculos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "veiculo.ano"
+                      },
+                      "Subject": {
+                        "Role": "veiculo"
+                      }
+                    },
+                    "ID": "veiculos_have_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "veiculo": {
+                    "Target": {
+                      "Entity": "veiculo"
+                    }
+                  },
+                  "veiculo.ano": {
+                    "Target": {
+                      "Entity": "veiculo.ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "veiculo_has_ano_modelo": {
+                "Binding": {
+                  "ConceptualEntity": "veiculos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "veiculo.ano_modelo"
+                      },
+                      "Subject": {
+                        "Role": "veiculo"
+                      }
+                    },
+                    "ID": "veiculos_have_ano_modelos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "veiculo": {
+                    "Target": {
+                      "Entity": "veiculo"
+                    }
+                  },
+                  "veiculo.ano_modelo": {
+                    "Target": {
+                      "Entity": "veiculo.ano_modelo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "veiculo_has_chassi": {
+                "Binding": {
+                  "ConceptualEntity": "veiculos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "veiculo.chassi"
+                      },
+                      "Subject": {
+                        "Role": "veiculo"
+                      }
+                    },
+                    "ID": "veiculos_have_chassis",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "veiculo": {
+                    "Target": {
+                      "Entity": "veiculo"
+                    }
+                  },
+                  "veiculo.chassi": {
+                    "Target": {
+                      "Entity": "veiculo.chassi"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "veiculo_has_cor": {
+                "Binding": {
+                  "ConceptualEntity": "veiculos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "veiculo.cor"
+                      },
+                      "Subject": {
+                        "Role": "veiculo"
+                      }
+                    },
+                    "ID": "veiculos_have_cors",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "veiculo": {
+                    "Target": {
+                      "Entity": "veiculo"
+                    }
+                  },
+                  "veiculo.cor": {
+                    "Target": {
+                      "Entity": "veiculo.cor"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "veiculo_has_id_veiculo": {
+                "Binding": {
+                  "ConceptualEntity": "veiculos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "veiculo.id_veiculo"
+                      },
+                      "Subject": {
+                        "Role": "veiculo"
+                      }
+                    },
+                    "ID": "veiculos_have_id_veiculos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "veiculo": {
+                    "Target": {
+                      "Entity": "veiculo"
+                    }
+                  },
+                  "veiculo.id_veiculo": {
+                    "Target": {
+                      "Entity": "veiculo.id_veiculo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "veiculo_has_marca": {
+                "Binding": {
+                  "ConceptualEntity": "veiculos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "veiculo.marca"
+                      },
+                      "Subject": {
+                        "Role": "veiculo"
+                      }
+                    },
+                    "ID": "veiculos_have_marcas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "veiculo": {
+                    "Target": {
+                      "Entity": "veiculo"
+                    }
+                  },
+                  "veiculo.marca": {
+                    "Target": {
+                      "Entity": "veiculo.marca"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "veiculo_has_medida_qtd_veiculos": {
+                "Binding": {
+                  "ConceptualEntity": "veiculos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.qtd_veiculos"
+                      },
+                      "Subject": {
+                        "Role": "veiculo"
+                      }
+                    },
+                    "ID": "veiculos_have_qtd_veiculos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida.qtd_veiculos": {
+                    "Target": {
+                      "Entity": "medida.qtd_veiculos"
+                    }
+                  },
+                  "veiculo": {
+                    "Target": {
+                      "Entity": "veiculo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "veiculo_has_modelo": {
+                "Binding": {
+                  "ConceptualEntity": "veiculos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "veiculo.modelo"
+                      },
+                      "Subject": {
+                        "Role": "veiculo"
+                      }
+                    },
+                    "ID": "veiculos_have_modelos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "veiculo": {
+                    "Target": {
+                      "Entity": "veiculo"
+                    }
+                  },
+                  "veiculo.modelo": {
+                    "Target": {
+                      "Entity": "veiculo.modelo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "AutoDetected_31fcf112-95f2-4ecf-9d9d-52f893c8fbfa",
+        "fromColumn": "Id_Pessoa",
+        "fromTable": "endereco_pessoa",
+        "toColumn": "Id_Pessoa",
+        "toTable": "pessoa"
+      },
+      {
+        "name": "AutoDetected_23fc50c1-5181-49ba-b56b-83702aac5ba1",
+        "fromColumn": "Id_Pessoa",
+        "fromTable": "telefone_pessoa",
+        "toColumn": "Id_Pessoa",
+        "toTable": "pessoa"
+      },
+      {
+        "name": "AutoDetected_4edfa16b-b425-4694-bdc0-bd978bb222e0",
+        "fromColumn": "Id_Pessoa",
+        "fromTable": "proprietario_veiculo",
+        "toColumn": "Id_Pessoa",
+        "toTable": "pessoa"
+      },
+      {
+        "name": "AutoDetected_3c9541d1-4c9f-471b-996f-414f49e66c10",
+        "fromColumn": "Id_Veiculo",
+        "fromTable": "proprietario_veiculo",
+        "toColumn": "Id_Veiculo",
+        "toTable": "veiculos"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "pessoa",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Id_Pessoa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "874611ef-33f2-4092-83ce-3684b3c77461",
+            "sourceColumn": "Id_Pessoa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CPF",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "49897530-cb1b-4acf-90e0-6769d618d5eb",
+            "sourceColumn": "CPF",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Nome",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ea198496-55cd-45d4-86cd-eba210c3d36b",
+            "sourceColumn": "Nome",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sobrenome",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fc24c48b-bb08-43ec-a15c-f9cc64367b71",
+            "sourceColumn": "Sobrenome",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "a1e3b039-1898-4b85-a29d-727342035c36",
+        "partitions": [
+          {
+            "name": "pessoa",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"C:\\\\Users\\\\engen\\\\Documents\\\\MarquesIgorDev\\\\sql_parquet\\\\pessoa.parquet\"), [Compression=null, LegacyColumnNameEncoding=false, MaxDepth=null])",
+                "in",
+                "    Fonte"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "endereco_pessoa",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Id_EnderecoPessoa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b29baab5-cf65-4ae5-acaa-093ea41cba6a",
+            "sourceColumn": "Id_EnderecoPessoa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Id_Pessoa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ac85848e-00a8-4b88-ae92-c28c6eff28f7",
+            "sourceColumn": "Id_Pessoa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Logradouro",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "786f9007-1acc-4a58-b3ea-eef567417568",
+            "sourceColumn": "Logradouro",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Complemento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e05200f4-b520-4151-af6b-0afb0bd81f26",
+            "sourceColumn": "Complemento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Numero",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c86ca6a0-a26c-48d6-a996-82987c57620b",
+            "sourceColumn": "Numero",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Is_Active",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "4173900f-0bac-4cfb-9c50-e2efdbab2d74",
+            "sourceColumn": "Is_Active",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "4ec3b2bb-d150-4ff7-ae11-c01369a37369",
+        "partitions": [
+          {
+            "name": "endereco_pessoa",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"C:\\\\Users\\\\engen\\\\Documents\\\\MarquesIgorDev\\\\sql_parquet\\\\endereco_pessoa.parquet\"), [Compression=null, LegacyColumnNameEncoding=false, MaxDepth=null])",
+                "in",
+                "    Fonte"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "telefone_pessoa",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Id_TelefonePessoa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "25f2d29e-56b6-45f0-85d0-1f7f711fb9f7",
+            "sourceColumn": "Id_TelefonePessoa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Id_Pessoa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bc6f928b-bf50-4128-a518-db7d9545f06b",
+            "sourceColumn": "Id_Pessoa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DDD",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e4cd3ecd-d4cc-40e9-adca-98faef0c6513",
+            "sourceColumn": "DDD",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Numero",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "01aec78a-3f53-4a79-a118-90acfcbdaa89",
+            "sourceColumn": "Numero",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Is_Active",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "8cfe12f9-5d9b-49eb-b3ab-1541e86a9cf1",
+            "sourceColumn": "Is_Active",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "02d7a364-fc7d-41ba-b99d-4308bda4e989",
+        "partitions": [
+          {
+            "name": "telefone_pessoa",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"C:\\\\Users\\\\engen\\\\Documents\\\\MarquesIgorDev\\\\sql_parquet\\\\telefone_pessoa.parquet\"), [Compression=null, LegacyColumnNameEncoding=false, MaxDepth=null])",
+                "in",
+                "    Fonte"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "veiculos",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Id_Veiculo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bf3e5f10-66cb-4fc1-8f7f-969b817d25de",
+            "sourceColumn": "Id_Veiculo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Chassi",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "816b2840-3cc2-4aa4-9996-28af417f43a6",
+            "sourceColumn": "Chassi",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Marca",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "17933ae7-034d-4f68-ba81-1d00ade60fb0",
+            "sourceColumn": "Marca",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Modelo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d8e85f14-f433-4dde-8604-b2933fdc37fe",
+            "sourceColumn": "Modelo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Cor",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ea874fc3-b1e5-40fb-9c0b-448bc3644af0",
+            "sourceColumn": "Cor",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "76166c0a-15f3-4c49-9f0d-72026ef180a8",
+            "sourceColumn": "Ano",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Ano_Modelo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bbdd1830-c610-41fb-9c3f-eba10586de04",
+            "sourceColumn": "Ano_Modelo",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "e74d6527-0e2a-432a-9c2c-2709d7890cf5",
+        "partitions": [
+          {
+            "name": "veiculos",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"C:\\\\Users\\\\engen\\\\Documents\\\\MarquesIgorDev\\\\sql_parquet\\\\veiculos.parquet\"), [Compression=null, LegacyColumnNameEncoding=false, MaxDepth=null])",
+                "in",
+                "    Fonte"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "proprietario_veiculo",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Id_Proprietario",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "96caff47-b4d7-47b5-8646-26305ffecf09",
+            "sourceColumn": "Id_Proprietario",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Id_Pessoa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "35a8e263-483f-4270-8946-c1d538249b73",
+            "sourceColumn": "Id_Pessoa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Id_Veiculo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4ab449e8-a069-48d9-81b0-2b742a412ea4",
+            "sourceColumn": "Id_Veiculo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Is_Active",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "a4a6cd6d-5b89-4783-9728-906cb3d134ba",
+            "sourceColumn": "Is_Active",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "842259b0-77b8-48f7-ac81-c2f12beb3942",
+        "partitions": [
+          {
+            "name": "proprietario_veiculo",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"C:\\\\Users\\\\engen\\\\Documents\\\\MarquesIgorDev\\\\sql_parquet\\\\proprietario_veiculo.parquet\"), [Compression=null, LegacyColumnNameEncoding=false, MaxDepth=null])",
+                "in",
+                "    Fonte"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Medidas",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "a",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "67756c92-63b8-4770-97a5-092daa04ea8c",
+            "sourceColumn": "a",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "c1b970c8-4378-4843-ba31-8303517a4220",
+        "measures": [
+          {
+            "name": "Qtd_Pessoa",
+            "expression": "DISTINCTCOUNT(pessoa[CPF])",
+            "formatString": "0",
+            "lineageTag": "cee142b3-8cc9-4fe9-b694-afbb43a64082"
+          },
+          {
+            "name": "Qtd_Veiculos",
+            "expression": "DISTINCTCOUNT(veiculos[Chassi])",
+            "formatString": "0",
+            "lineageTag": "f2c1e39f-a817-4922-983b-16863726b18c"
+          },
+          {
+            "name": "Veiculos_Pessoa",
+            "expression": [
+              "CALCULATE(",
+              "    COUNTROWS(proprietario_veiculo),",
+              "    ALLEXCEPT(Pessoa, Pessoa[CPF])",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "73ffd218-d374-470d-883d-e644eb4ed44b"
+          },
+          {
+            "name": "NomePessoa",
+            "expression": [
+              "",
+              "IF(",
+              "    NOT(ISFILTERED(pessoa[CPF])), ",
+              "    \"--\",",
+              "    FIRSTNONBLANK(Pessoa[Nome], \"Nome não encontrado\")",
+              ")",
+              ""
+            ],
+            "lineageTag": "caa8a0fb-9af4-4d18-a8ab-520814e05010"
+          },
+          {
+            "name": "PessoaSobrenome",
+            "expression": [
+              "",
+              "IF(",
+              "    NOT(ISFILTERED(pessoa[CPF])), ",
+              "    \"--\",",
+              "    FIRSTNONBLANK(pessoa[Sobrenome], \"Nome não encontrado\")",
+              ")"
+            ],
+            "lineageTag": "7912a03a-c1a0-49a8-8708-398ae3ea4aa4"
+          },
+          {
+            "name": "PessoaCPF",
+            "expression": [
+              "",
+              "IF(",
+              "    NOT(ISFILTERED(pessoa[CPF])), ",
+              "    \"--\",",
+              "    FIRSTNONBLANK(pessoa[CPF], \"Nome não encontrado\")",
+              ")"
+            ],
+            "lineageTag": "9ac58e8e-4a86-4d2c-9f64-c1fa05f72b3a"
+          },
+          {
+            "name": "PessoaTelefoneAtivo",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "IF(",
+              "    NOT(ISFILTERED(pessoa[CPF])), ",
+              "    \"--\",",
+              "    FIRSTNONBLANK(telefone_pessoa[Is_Active], \"Não encontrado\")",
+              ")"
+            ],
+            "lineageTag": "d97717bc-20cb-41cd-84a3-49410b12a2bf"
+          },
+          {
+            "name": "PessoaTelefoneDDD",
+            "expression": [
+              "",
+              "IF(",
+              "    NOT(ISFILTERED(pessoa[CPF])), ",
+              "    \"--\",",
+              "    FIRSTNONBLANK(telefone_pessoa[DDD], \"Não encontrado\")",
+              ")"
+            ],
+            "lineageTag": "d088c331-f15a-48a8-8e7c-7aecda8db847"
+          },
+          {
+            "name": "PessoaTelefoneNumero",
+            "expression": [
+              "",
+              "IF(",
+              "    NOT(ISFILTERED(pessoa[CPF])), ",
+              "    \"--\",",
+              "    FIRSTNONBLANK(telefone_pessoa[Numero], \"Não encontrado\")",
+              ")"
+            ],
+            "lineageTag": "e05be713-2ecc-47e8-87cc-15da708095ce"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Medidas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [a = _t]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"a\", type text}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -72,8 +72,10 @@ Ao iniciar projeto, será criado automaticamente o **schema** ```Parquet```
 
 ```task insert-table```
 
-### Iniciando API para conculta dos dados via .Parquet
+### Iniciando API para consulta dos dados via .Parquet
 
 ```task run```
+
+Aplicação estará disponível em: ```localhost:8000/docs```
 
 ### Arquivo .PBIP incluido no projeto para validação
